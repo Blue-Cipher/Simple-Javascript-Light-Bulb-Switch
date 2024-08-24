@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(194, 194, 194);
+}
+
+button:hover{
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(241, 241, 241);
+}
+
+button:active{
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
